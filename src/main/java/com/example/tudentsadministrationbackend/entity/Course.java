@@ -17,8 +17,7 @@ public class Course {
     private List<Student> students = new ArrayList<>();
 
     // constructor
-    public Course(Long id, String name) {
-        this.id = id;
+    public Course(String name) {
         this.courseName = name;
     }
 

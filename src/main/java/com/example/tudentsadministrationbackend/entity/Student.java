@@ -15,8 +15,7 @@ public class Student {
     @ManyToMany(mappedBy = "Student", cascade = CascadeType.ALL)
     private List<Course> courses = new ArrayList<>();
 
-    public Student(Long id, String name) {
-        this.id = id;
+    public Student(String name) {
         this.name = name;
     }
 
